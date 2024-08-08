@@ -9,3 +9,13 @@ else
 fi # it indicates if condition ends here.
 
 yum install mysql -y
+
+# validation whether installed or not mysql
+if [ $? -ne 0 ]
+then
+    echo "Error :: Installing MYSQL is failed"
+    exit 1
+else
+    echo "Installing MySql is success"
+fi 
+    
