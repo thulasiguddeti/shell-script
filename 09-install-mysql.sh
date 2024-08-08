@@ -19,7 +19,7 @@ else
     echo "Installing MySql is success"
 fi 
 
-yum install git -y 
+yum install nginx -y 
 
 # validation whether installed or not Git
 
