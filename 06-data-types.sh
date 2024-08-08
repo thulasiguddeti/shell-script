@@ -5,3 +5,5 @@ Num2=$2
 
 sum=$((Num1+Num2)) 
 echo "Total is : $sum"
+echo "How many args passed:: $#"
+echo "All args passed:: $@"
