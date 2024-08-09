@@ -25,7 +25,7 @@ else
     echo "Your are a root user"
 fi # it indicates if condition ends here.
 
-yum install mysql -y &>> $LOGFILE
+yum install mysqlll -y &>> $LOGFILE
 
 VALIDATE $?  "Installing mysql"
 
