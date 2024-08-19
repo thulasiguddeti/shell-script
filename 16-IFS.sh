@@ -11,7 +11,7 @@ then
     echo -e "$R Source directory : $file does not exists. $N"
 fi 
 
-while IFS=":" read -r username password user_id group-id user_fullname home_dir shell_path
+while IFS=":" read -r username password user_id group_id user_fullname home_dir shell_path
 do 
     echo "username: $username"
     echo "user id: $user_id"
